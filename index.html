@@ -4,11 +4,154 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>adam2k</title>
-        <meta name="description" content="Adam2k website">
+        <meta name="description" content="Adam Vandover portfolio and about me website.">
+        <meta name="keywords" content="Adam Vandover, Rapid Prototype Developer, Software Engineer, Swift, JavaScript, Java">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="styles/main.css" rel="stylesheet">
-        <link href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <meta name="author" content="Adam Vandover">
+        <meta http-equiv="last-modified" content="Mon, 24 Apr 2017 11:04:15 EDT " />
+        <meta http-equiv="cache-control" content="Private" />
+        <meta http-equiv="Expires" content="86000" />
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                font-family: 'Quicksand', sans-serif;
+                background: #fff;
+                color: #fff;
+                font-weight: 400;
+            }
+
+            h1 {
+                font-size: 2rem;
+                margin: 0;
+                font-weight: 900;
+                text-align: center;
+                width: 100%;
+            }
+            h2 {
+                margin: 0;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            p {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+            a, a:visited {
+                font-size: 1.25rem;
+                text-decoration: none;
+                border: none;
+                color: #febc20;
+                -webkit-transition: all 200ms; /* Safari */
+                transition: all 200ms;
+            }
+            a:hover, a:active, a:focus {
+                color: #dd9b1d;
+            }
+
+            a::selection, p::selection {
+                background-color: #febc20;
+                color: #fff;
+            }
+
+            header, footer {
+                margin: 0;
+                padding: 0.5rem 1rem;
+                background: #febc20;
+            }
+            .inner-header, .inner-footer {
+                margin: auto auto;
+                padding: 1.5rem 0;
+                max-width: 660px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+            .profile-pic {
+                border: none;
+                border-radius: 100%;
+                width: auto;
+                max-width: 150px;
+                height: 150px;
+                margin: auto auto;
+            }
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0.5rem 1rem 0;
+            }
+            main {
+                display: flex;
+                margin: auto auto;
+                max-width: 660px;
+                padding: 1rem 1rem 1rem;
+                flex-direction: column;
+                color: #555555;
+            }
+            footer {
+                padding-top: 0;
+                background: #fff;
+            }
+            .inner-footer {
+                padding-top: 0;
+            }
+            .inner-footer ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .inner-footer ul li {
+                flex-basis: 50%;
+            }
+            footer a {
+                padding: 0.5rem 0;
+                display: inline-flex;
+            }
+            footer a i {
+                padding-right: 0.5rem;
+            }
+
+            @media (min-width: 480px) {
+                h1 {
+                    font-size: 2.5rem;
+                    text-align: left;
+                    width: 100%;
+                }
+                h2 {
+                    margin: 0;
+                    padding: 1rem 0;
+                    text-align: left;
+                }
+                p {
+                    font-size: 1.25rem;
+                    line-height: 1.95rem;
+                }
+                .inner-header, .inner-footer {
+                    flex-direction: row;
+                    padding: 3rem 0;
+                }
+                .inner-footer ul {
+                    justify-content: space-between;
+                }
+                .inner-footer ul li {
+                    flex-basis: 33%;
+                }
+                .profile-pic {
+                    margin: auto auto;
+                }
+                .card {
+                    padding: 0 1rem;
+                }
+            }
+        </style>
     </head>
     <body>
         <!--[if lte IE 10]>
@@ -76,5 +219,7 @@
                 </ul>
             </div>
         </footer>
+        <link href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
     </body>
 </html>
