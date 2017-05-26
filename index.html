@@ -33,6 +33,15 @@
                 padding: 1rem 0;
                 text-align: center;
             }
+            h3 {
+                margin: 1rem 0 0.25rem;
+            }
+            h4 {
+                margin: 0;
+            }
+            h5 {
+                margin: 0;
+            }
             p {
                 font-size: 1.125rem;
                 line-height: 1.75rem;
@@ -59,6 +68,12 @@
                 padding: 0.5rem 1rem;
                 background: #febc20;
             }
+            header a h1, header a h1:visited {
+                color: #fff;
+            }
+            header a h1:active, header a h1:focus, header a h1:hover {
+                color: #fafafa;
+            }
             .inner-header, .inner-footer {
                 margin: auto auto;
                 padding: 1.5rem 0;
@@ -66,6 +81,11 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
+            }
+            .inner-header .header-link {
+                display: block;
+                margin: auto auto;
+                max-width: 150px;
             }
             .profile-pic {
                 border: none;
@@ -115,6 +135,30 @@
             footer a i {
                 padding-right: 0.5rem;
             }
+            .resume h1, .resume h2, .resume h3, .resume h4 {
+                color: #febc20;
+            }
+            .resume h4 span {
+                color: #888;
+                font-size: 0.9rem;
+                line-height: 1rem;
+            }
+            .resume p {
+                font-size: 1rem;
+                line-height: 1.75rem;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+            .resume ul {
+                font-size: 1rem;
+                line-height: 1.75rem;
+            }
+            .note {
+                color: #888;
+                font-style: italic;
+                text-align: right;
+            }
+
             @media (min-width: 600px) {
                 h1 {
                     font-size: 2.5rem;
@@ -148,6 +192,26 @@
                 }
             }
         </style>
+        <!-- Start Single Page Apps for GitHub Pages -->
+        <script type="text/javascript">
+          (function(l) {
+            if (l.search) {
+              var q = {};
+              l.search.slice(1).split('&').forEach(function(v) {
+                var a = v.split('=');
+                q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+              });
+              if (q.p !== undefined) {
+                window.history.replaceState(null, null,
+                  l.pathname.slice(0, -1) + (q.p || '') +
+                  (q.q ? ('?' + q.q) : '') +
+                  l.hash
+                );
+              }
+            }
+          }(window.location))
+        </script>
+        <!-- End Single Page Apps for GitHub Pages -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -165,74 +229,9 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQLRL5H"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
-        <header>
-            <div class="inner-header">
-                <img class="profile-pic" src="images/profile.jpg" />
-                <div class="card">
-                    <h1>Adam Vandover</h1>
-                    <h2>// Rapid Prototyping Software Engineer</h2>
-                </div>
-            </div>
-        </header>
-        <main>
-            <p>Hello, I am a software engineer from Norfolk, Virginia. I work with a wide range of technologies including <a href="https://swift.org/" target="_blank">Swift</a>, <a href="http://www.oracle.com/technetwork/java/javase/documentation/index.html" target="_blank">Java</a>, and <a href="https://www.javascript.com/" target="_blank">JavaScript</a>.  I am driven to create innovative, best-in-class software solutions.  I have a strong mastery of puns...although, at times they might be a little pun-gent.</p>
-            <p>Interested in talking?  Send me a message and we can chat.</p>
-            <p>You can find me all around the Interwebs or running around Norfolk.</p>
-        </main>
-        <footer>
-            <div class="inner-footer">
-                <ul>
-                    <li>
-                        <a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x61;&#x76;&#x61;&#110;&#x64;&#111;&#118;&#101;&#114;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">
-                            <i class="mdi mdi-email"></i>
-                            <span>email</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/avandover" target="_blank">
-                            <i class="mdi mdi-linkedin"></i>
-                            <span>linkedin</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.github.com/adam2k" target="_blank">
-                            <i class="mdi mdi-github-circle"></i>
-                            <span>github</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://teamtreehouse.com/adam2k" target="_blank">
-                            <i class="mdi mdi-book"></i>
-                            <span>Team Treehouse</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/users/1008875/adam2k" target="_blank">
-                            <i class="mdi mdi-stackoverflow"></i>
-                            <span>stackoverflow</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/adam2k" target="_blank">
-                            <i class="mdi mdi-instagram"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com/adam2k" target="_blank">
-                            <i class="mdi mdi-twitter"></i>
-                            <span>twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/adam2k" target="_blank">
-                            <i class="mdi mdi-facebook-box"></i>
-                            <span>facebook</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+        <div id="root"></div>
+        <!-- single page app in bundle.js -->
+        <script src="/build/bundle.js"></script>
         <link href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
         <script type="application/ld+json">{
             "@context": "https://schema.org",
