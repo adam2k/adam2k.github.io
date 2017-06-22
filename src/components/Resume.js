@@ -24,7 +24,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li>
-                  Package/Dependency Managers & Task Runners:
+                  Package/Dependency Managers &amp; Task Runners:
                   <ul>
                       <li>yarn, npm, bower, Homebrew, Cocoapods</li>
                   </ul>
@@ -36,7 +36,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li>
-                  Development & Design Software:
+                  Development &amp; Design Software:
                   <ul>
                       <li>XCode, Atom (Nuclide), IntelliJ IDEA, iTerm2, Git, Sketch, Sequel Pro, MySQL Workbench</li>
                   </ul>
