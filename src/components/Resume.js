@@ -7,7 +7,6 @@ import Footer from './Footer';
 import PageNotFound from './PageNotFound';
 import s from '../styles/resume.style';
 
-
 export default function Resume() {
   return (
       <div>
@@ -18,25 +17,30 @@ export default function Resume() {
 
               <h2>Technology Stack</h2>
               <ul>
-                  <li>
-                      Programming:
-                      <ul>
-                          <li>Current Languages:</li>
-                          <li>Swift 3.1, Objective-C, JavaScript (Node.js, React), Java</li>
-                          <li>Frameworks & Libraries:</li>
-                          <li>Java Spring, Express.js, React, React Native</li>
-                          <li>Package/Dependency Managers & Task Runners:</li>
-                          <li>yarn, bower, Homebrew, Cocoapods</li>
-                          <li>Servers, Databases:</li>
-                          <li>Nginx, Apache, Node.js, Firebase (Database), Docker, MySQL/Mariadb, SQL, Amazon RDS</li>
-                      </ul>
-                  </li>
-                  <li>
-                      Development & Design Software:
-                      <ul>
-                          <li>XCode, Atom (Nuclide), IntelliJ IDEA, iTerm2, Git, Sketch, Sequel Pro, MySQL Workbench</li>
-                      </ul>
-                  </li>
+                <li>
+                  Programming:
+                  <ul>
+                    <li>Swift 3.1, Java (Spring), JavaScript (Node.js, React, React Native)</li>
+                  </ul>
+                </li>
+                <li>
+                  Package/Dependency Managers &amp; Task Runners:
+                  <ul>
+                      <li>yarn, npm, bower, Homebrew, Cocoapods</li>
+                  </ul>
+                </li>
+                <li>
+                  Servers, Databases:
+                  <ul>
+                      <li>Nginx, Apache, Node.js, Firebase (Database), Docker, MySQL/Mariadb, SQL, Amazon RDS</li>
+                  </ul>
+                </li>
+                <li>
+                  Development &amp; Design Software:
+                  <ul>
+                      <li>XCode, Atom (Nuclide), IntelliJ IDEA, iTerm2, Git, Sketch, Sequel Pro, MySQL Workbench</li>
+                  </ul>
+                </li>
               </ul>
 
               <h2>Experience</h2>
