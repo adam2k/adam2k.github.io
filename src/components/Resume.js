@@ -20,25 +20,25 @@ export default function Resume() {
                 <li>
                   <strong>Programming:</strong>
                   <ul>
-                    <li>Swift 3.1, Java (Spring), JavaScript (Node.js, React, React Native)</li>
+                    <li>Swift, Java (Spring), JavaScript (Node.js, React, React Native)</li>
                   </ul>
                 </li>
                 <li>
                   <strong>Package/Dependency Managers &amp; Task Runners:</strong>
                   <ul>
-                      <li>yarn, npm, bower, Homebrew, Cocoapods</li>
+                      <li>yarn, npm, Homebrew, Cocoapods</li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Servers, Databases:</strong>
+                  <strong>Servers, Databases, Deployment:</strong>
                   <ul>
-                      <li>Nginx, Apache, Node.js, Firebase (Database), Docker, MySQL/Mariadb, SQL, Amazon RDS</li>
+                      <li>Nginx, Apache, Firebase (Database), MySQL/Mariadb, SQL, Amazon RDS, Docker, Kubernetes, Heroku, AWS, Google Cloud Platform</li>
                   </ul>
                 </li>
                 <li>
                   <strong>Development &amp; Design Software:</strong>
                   <ul>
-                      <li>XCode, Atom (Nuclide), IntelliJ IDEA, iTerm2, Git, Sketch, Sequel Pro, MySQL Workbench</li>
+                      <li>XCode, Atom (Nuclide), IntelliJ IDEA, iTerm2, Git, Sketch, Invision</li>
                   </ul>
                 </li>
               </ul>
@@ -54,7 +54,7 @@ export default function Resume() {
 
               <h3>2014 - 2016</h3>
               <h4>hny creative <span>// Owner & Developer</span></h4>
-              <p>Works with a team of five to build solutions for non-profit, small and large businesses.  Develop websites and applications using WordPress, Laravel, CodeIgniter, and Magento while tailoring them to fit the requirements of the individual business.  Integrates Google Analytics, Google Apps, SEO Tools and MailChimp to increase the website value for stakeholders.  Work with non-profits, retail shops, and agencies to create solutions for individual business needs.  Build solutions using Amazon Web Services including Amazon EC2, Route 53, RDS, S3, and CloudFront.  Visit hnycreative.com for portfolio and project examples.</p>
+              <p>Works with a team of five to build solutions for non-profit, small and large businesses.  Develop websites and applications using WordPress, Laravel, CodeIgniter, and Magento while tailoring them to fit the requirements of the individual business.  Integrates Google Analytics, Google Apps, SEO Tools and MailChimp to increase the website value for stakeholders.  Work with non-profits, retail shops, and agencies to create solutions for individual business needs.  Build solutions using Amazon Web Services including Amazon EC2, Route 53, RDS, S3, and CloudFront.</p>
 
               <h3>2008 - 2014</h3>
               <h4>IBM <span>// Senior Technical Consultant</span></h4>
@@ -65,6 +65,12 @@ export default function Resume() {
               <p>Created and sustained course content and exams on the Joint Forces Command Learning Management System.  The courses were developed using Adobe Flash, ActionScript 2.0 and 3.0, HTML, CSS, XML, JavaScript and SCORM 2004.</p>
 
               <p className="note">*References available upon request.</p>
+
+              <h2>Additional Accomplishments</h2>
+              <ul>
+                <li>Spring 2017 - Co-Chaired/Coordinated Dominion Enterprises Student Hackathon</li>
+                <li>Summer 2017 - Chaired/Coordinated Dominion Enterprises Internal Hackathon</li>
+              </ul>
           </main>
           <Footer />
       </div>

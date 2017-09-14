@@ -4,7 +4,7 @@
   "private": true,
   "description": "Single Portfolio App for GitHub Pages",
   "scripts": {
-    "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback",
+    "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
     "build": "webpack -p"
   },
   "repository": {
@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "webpack": "^3.5.6",
+    "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.5"
   }
 }
