@@ -18,25 +18,25 @@ export default function Resume() {
               <h2>Technology Stack</h2>
               <ul>
                 <li>
-                  Programming:
+                  <strong>Programming:</strong>
                   <ul>
                     <li>Swift 3.1, Java (Spring), JavaScript (Node.js, React, React Native)</li>
                   </ul>
                 </li>
                 <li>
-                  Package/Dependency Managers &amp; Task Runners:
+                  <strong>Package/Dependency Managers &amp; Task Runners:</strong>
                   <ul>
                       <li>yarn, npm, bower, Homebrew, Cocoapods</li>
                   </ul>
                 </li>
                 <li>
-                  Servers, Databases:
+                  <strong>Servers, Databases:</strong>
                   <ul>
                       <li>Nginx, Apache, Node.js, Firebase (Database), Docker, MySQL/Mariadb, SQL, Amazon RDS</li>
                   </ul>
                 </li>
                 <li>
-                  Development &amp; Design Software:
+                  <strong>Development &amp; Design Software:</strong>
                   <ul>
                       <li>XCode, Atom (Nuclide), IntelliJ IDEA, iTerm2, Git, Sketch, Sequel Pro, MySQL Workbench</li>
                   </ul>
