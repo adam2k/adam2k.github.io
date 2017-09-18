@@ -14,7 +14,7 @@ export default function Header(props) {
                     as={Link}
                     to="/"
                     className="header-link"
-                 ><img className="profile-pic" src="images/profile.jpg" /></Interactive>
+                 ><img className="profile-pic" src="images/profile.jpg" httpEquiv="Expires" content="86400" /></Interactive>
                 <div className="card">
                     <Interactive
                         as={Link}

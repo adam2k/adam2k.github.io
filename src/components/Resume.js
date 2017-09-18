@@ -14,7 +14,6 @@ export default function Resume() {
           <main className="resume">
               <h2>Professional Profile</h2>
               <p>Driven to create innovative, best-in-class software solutions.  Excellent communicator with experience in interpreting and implementing software solutions based on data science and design sprints.  Passionate about developing and creating well constructed, web standards compliant products and applications.  Known for handling multiple projects simultaneously while still meeting critical deadlines.  The desire to create flexible data-driven applications that evolve and improve the web.  Obsessed with pixel perfection, from design mockups and diagrams to development.  Lives for learning and implementing what is possible with the latest technology.</p>
-
               <h2>Technology Stack</h2>
               <ul>
                 <li>
