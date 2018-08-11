@@ -1,11 +1,6 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Switch, Route, Link } from 'react-router-dom';
-import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
-import PageNotFound from './PageNotFound';
-import s from '../styles/resume.style';
 
 export default function Resume() {
   return (
