@@ -1,8 +1,6 @@
 import React from 'react';
 import Interactive from 'react-interactive';
-import { Code } from '../styles/style';
-import { Switch, Route, Link } from 'react-router-dom';
-import PageNotFound from './PageNotFound';
+import { Link } from 'react-router-dom';
 import s from '../styles/home.style';
 
 export default function Header(props) {

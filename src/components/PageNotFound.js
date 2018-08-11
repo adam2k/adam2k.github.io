@@ -1,10 +1,7 @@
 import React from 'react';
-import Interactive from 'react-interactive';
 import PropTypes from 'prop-types';
-import { Code } from '../styles/style';
 import Header from './Header';
 import Footer from './Footer';
-import s from '../styles/pageNotFound.style';
 
 const propTypes = {
   location: PropTypes.object.isRequired,

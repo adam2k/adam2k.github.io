@@ -1,7 +1,6 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
-import { Code } from '../styles/style';
 import Header from './Header';
 import Footer from './Footer';
 import s from '../styles/home.style';

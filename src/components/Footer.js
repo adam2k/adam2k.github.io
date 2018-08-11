@@ -1,7 +1,4 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Switch, Route, Link } from 'react-router-dom';
-import PageNotFound from './PageNotFound';
 
 export default function Footer() {
   return (
