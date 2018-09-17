@@ -35,24 +35,6 @@ export default function Footer() {
                         <span>stackoverflow</span>
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/adam2k" target="_blank">
-                        <i className="mdi mdi-instagram"></i>
-                        <span>Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/adam2k" target="_blank">
-                        <i className="mdi mdi-twitter"></i>
-                        <span>twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/adam2k" target="_blank">
-                        <i className="mdi mdi-facebook-box"></i>
-                        <span>facebook</span>
-                    </a>
-                </li>
             </ul>
         </div>
     </footer>
