@@ -13,19 +13,18 @@ export default function Home() {
         <p>
           Hello, I am a software engineer from Virginia, living in San Francisco. I work with a wide
           range of technologies including{' '}
-          <a href="https://reactjs.org/" target="_blank">
-            React
-          </a>
-          ,{' '}
-          <a href="https://redux.js.org/" target="_blank">
-            Redux
+          <a href="https://vuejs.org/" target="_blank">
+            Vue.js
           </a>{' '}
           and{' '}
-          <a href="https://www.java.com/" target="_blank">
-            Java
+          <a href="https://nodejs.org/" target="_blank">
+            Node.js
           </a>
-          . I am a musician, public speaker, collaborator and creative. I am driven to create
-          innovative, inclusive software solutions that help improve lives.
+          .
+          <p>
+            I am a musician, public speaker, collaborator and creative. I am driven to create
+            innovative, inclusive software solutions that help improve lives.
+          </p>
         </p>
         <p>Interested in talking? Send me a message and we can chat.</p>
         <p>You can find me all around the Interwebs or biking around San Francisco.</p>

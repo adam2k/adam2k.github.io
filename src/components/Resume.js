@@ -8,7 +8,7 @@ export default function Resume() {
       <Header h1="Adam Vandover" h2="// Software Engineer" />
       <main className="resume">
         <h2>Professional Profile</h2>
-         <p>
+        <p>
           Dedicated to improving lives with technology. Excellent communicator with experience in
           interpreting and implementing software solutions based on data science experiments and
           design sprints. Passionate about developing and creating well constructed, web standards
