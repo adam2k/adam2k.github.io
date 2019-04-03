@@ -8,7 +8,7 @@ export default function Resume() {
       <Header h1="Adam Vandover" h2="// Software Engineer" />
       <main className="resume">
         <h2>Professional Profile</h2>
-        <p>
+         <p>
           Dedicated to improving lives with technology. Excellent communicator with experience in
           interpreting and implementing software solutions based on data science experiments and
           design sprints. Passionate about developing and creating well constructed, web standards
@@ -23,11 +23,10 @@ export default function Resume() {
             <strong>Programming:</strong>
             <ul>
               <li>
-                <strong>Current:</strong> Typescript/JavaScript (React, React Native), Java
-                (Spring), Swift, Rails
+                <strong>Current:</strong>Typescript/JavaScript, Vue.js and Node.js
               </li>
               <li>
-                <strong>Previous:</strong> php, C++
+                <strong>Previous:</strong>React, React Native, Java (Spring), php, C++, Swift, Rails
               </li>
             </ul>
           </li>
