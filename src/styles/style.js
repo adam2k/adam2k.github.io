@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const link = {
-  touchActiveTapOnly: true,
+  touchActiveTapOnly: true
 };
 
 const headerLink = {
@@ -12,22 +12,22 @@ const headerLink = {
   },
   hover: {
     borderBottom: 'none',
-    color: '#fafafa',
+    color: '#fafafa'
   },
   active: 'hover',
   touchActive: {
     borderBottom: 'none',
-    color: '#fafafa',
+    color: '#fafafa'
   },
   focusFromTab: {
     outline: 'none',
     outlineOffset: 'none',
-    color: '#fafafa',
+    color: '#fafafa'
   }
-}
+};
 
 const childLink = {};
-Object.keys(link).forEach((key) => {
+Object.keys(link).forEach(key => {
   if (key !== 'touchActiveTapOnly') {
     childLink[`onParent${key.slice(0, 1).toUpperCase()}${key.slice(1)}`] = link[key];
   }
@@ -38,8 +38,8 @@ export default {
   childLink,
   p: {
     margin: '3vh 0',
-    lineHeight: '1.4',
-  },
+    lineHeight: '1.4'
+  }
 };
 
 export const Code = ({ children }) => (
@@ -47,13 +47,15 @@ export const Code = ({ children }) => (
     style={{
       fontFamily: 'monospace',
       fontSize: '15px',
-      paddingLeft: '2px',
+      paddingLeft: '2px'
     }}
-  >{children}</code>
+  >
+    {children}
+  </code>
 );
 
 Code.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired
 };
 
 export const Li = ({ children, ...rest }) => (
@@ -62,7 +64,7 @@ export const Li = ({ children, ...rest }) => (
       paddingLeft: '18px',
       textIndent: '-15px',
       margin: '0.5vh 0',
-      listStyle: 'none',
+      listStyle: 'none'
     }}
     {...rest}
   >
@@ -72,5 +74,5 @@ export const Li = ({ children, ...rest }) => (
 );
 
 Li.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired
 };

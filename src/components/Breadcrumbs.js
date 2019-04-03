@@ -7,7 +7,7 @@ import s from '../styles/style';
 const breadCrumbTitles = {
   '': 'Home',
   example: 'Example',
-  'two-deep': 'Two Deep',
+  'two-deep': 'Two Deep'
 };
 
 function BreadcrumbsItem({ match }) {
@@ -16,25 +16,21 @@ function BreadcrumbsItem({ match }) {
 
   return (
     <span>
-      <Interactive
-        as={Link}
-        {...s.link}
-        to={to}
-      >{title || 'Page Not Found'}</Interactive>
+      <Interactive as={Link} {...s.link} to={to}>
+        {title || 'Page Not Found'}
+      </Interactive>
       {!match.isExact && title && ' / '}
-      {title &&
+      {title && (
         <Route path={`${match.url === '/' ? '' : match.url}/:path`} component={BreadcrumbsItem} />
-      }
+      )}
     </span>
   );
 }
 
 BreadcrumbsItem.propTypes = {
-  match: PropTypes.object.isRequired,
+  match: PropTypes.object.isRequired
 };
 
 export default function Breadcrumbs() {
-  return (
-    <Route path="/" component={BreadcrumbsItem} />
-  );
+  return <Route path="/" component={BreadcrumbsItem} />;
 }
