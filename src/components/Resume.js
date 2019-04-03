@@ -45,9 +45,9 @@ export default function Resume() {
         </ul>
 
         <h2>Experience</h2>
-        <h3>2018 - 2018</h3>
+        <h3>2018</h3>
         <h4>Zume <span>// Software Engineer</span></h4>
-        <p></p>
+        <p>Working with an engineering team to feed the world without destroying it.  Using Vue.js and Node.js to build out Zume's value added services.</p>
         
         <h3>2018 - 2018</h3>
         <h4>Handshake <span>// Software Engineer</span></h4>
