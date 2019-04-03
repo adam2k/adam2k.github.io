@@ -5,7 +5,7 @@ import Footer from './Footer';
 export default function Resume() {
   return (
     <div>
-      <Header h1="Adam Vandover" h2="// Rapid Prototyping Software Engineer" />
+      <Header h1="Adam Vandover" h2="// Software Engineer" />
       <main className="resume">
         <h2>Professional Profile</h2>
         <p>Dedicated to improving lives with technology. Excellent communicator with experience in interpreting and implementing software solutions based on data science experiments and design sprints. Passionate about developing and creating well constructed, web standards compliant products and applications while always keeping the user experience top of mind.  The desire to formulate flexible data-driven applications and improve outcomes by continually iterating.  Lives for learning and implementing what is possible with the latest technology.</p>
@@ -21,7 +21,7 @@ export default function Resume() {
           <li>
             <strong>Development/Collaboration Tools:</strong>
             <ul>
-              <li>Github, Slack, Clubhouse, Jira, Zeplin, and Invision</li>
+              <li>Github, Slack, Jira, Zeplin, Figma and Invision</li>
             </ul>
           </li>
           <li>
@@ -33,7 +33,7 @@ export default function Resume() {
           <li>
             <strong>Servers, Databases, Deployment:</strong>
             <ul>
-              <li>Google Cloud Platform, AWS, Elasticsearch, Firebase (Database), PostgreSQL, MySQL/MariaDB, MS SQL, Docker, Kubernetes, Heroku</li>
+              <li>Google Cloud Platform, AWS, Heroku, Elasticsearch, Firebase (Database), PostgreSQL, MySQL/MariaDB, Docker, Kubernetes</li>
             </ul>
           </li>
           <li>
@@ -45,7 +45,11 @@ export default function Resume() {
         </ul>
 
         <h2>Experience</h2>
-        <h3>2018</h3>
+        <h3>2018 - 2018</h3>
+        <h4>Zume <span>// Software Engineer</span></h4>
+        <p></p>
+        
+        <h3>2018 - 2018</h3>
         <h4>Handshake <span>// Software Engineer</span></h4>
         <p>Works in a mission-driven environment building production-ready code using React/Redux and Rails for millions of active users.  Closely working within a team of five in an agile sprint process developing products for premium employers to help empower students to make career decisions.  Takes product requirements and designs from Zeplin to give feedback in scoping sessions to build best-in-class features for employers.  A member of the frontend guild that helps makes decisions on best practices for developing the frontend of the application.</p>
         
