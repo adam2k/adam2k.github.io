@@ -21,10 +21,10 @@ export default function Home() {
             Node.js
           </a>
           .
-          <p>
-            I am a musician, public speaker, collaborator and creative. I am driven to create
-            innovative, inclusive software solutions that help improve lives.
-          </p>
+        </p>
+        <p>
+          I am a musician, public speaker, collaborator and creative. I am driven to create
+          innovative, inclusive software solutions that help improve lives.
         </p>
         <p>Interested in talking? Send me a message and we can chat.</p>
         <p>You can find me all around the Interwebs or biking around San Francisco.</p>
