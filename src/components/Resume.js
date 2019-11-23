@@ -43,11 +43,10 @@ export default function Resume() {
             </ul>
           </li>
           <li>
-            <strong>Servers, Databases, Deployment:</strong>
+            <strong>Servers, Databases, Deployment Tools:</strong>
             <ul>
               <li>
-                Google Cloud Platform, AWS, Heroku, Elasticsearch, Firebase (Database), PostgreSQL,
-                MySQL/MariaDB, Docker, Kubernetes
+                Google Cloud Platform, Docker, Kubernetes, Helm, Vault, AWS, Heroku, Elasticsearch, PostgreSQL
               </li>
             </ul>
           </li>
@@ -65,7 +64,8 @@ export default function Resume() {
           Zume <span>// Software Engineer</span>
         </h4>
         <p>
-          Working with an engineering team to feed the world without destroying it. Using Vue.js and
+          Currently working on the Site Relibility Engineering team.
+          Previously using Vue.js and
           Node.js to build out Zume's value added services.
         </p>
 
@@ -77,10 +77,7 @@ export default function Resume() {
           Works in a mission-driven environment building production-ready code using React/Redux and
           Rails for millions of active users. Closely working within a team of five in an agile
           sprint process developing products for premium employers to help empower students to make
-          career decisions. Takes product requirements and designs from Zeplin to give feedback in
-          scoping sessions to build best-in-class features for employers. A member of the frontend
-          guild that helps makes decisions on best practices for developing the frontend of the
-          application.
+          career decisions.
         </p>
 
         <h3>2016 - 2018</h3>
@@ -106,11 +103,10 @@ export default function Resume() {
           full production. Develops an iPad Pro application to automate creating pitch decks with
           pertinent property information for the ForRent sales team when visiting clients on-site.
           Helping to save countless hours of manually building sales pitch slide decks with
-          inconsistent results and incorrect data. Uses git to push production quality code to the
-          ForRent.com API, mobile apps and desktop website.
+          inconsistent results and incorrect data.
         </p>
 
-        <h3>2014 - 2016</h3>
+        <h3>2014 - Present</h3>
         <h4>
           hny creative <span>// Software Engineer</span>
         </h4>
@@ -149,14 +145,6 @@ export default function Resume() {
         </p>
 
         <p className="note">*References available upon request.</p>
-
-        <h2>Recent Accomplishments</h2>
-        <ul>
-          <li>Fall 2017 - Speaker at Dominion Enterprises DevCon 2017</li>
-          <li>Summer 2017 - Dominion Enterprises Tactical Management Training</li>
-          <li>Summer 2017 - Chaired/Coordinated Dominion Enterprises Internal Hackathon</li>
-          <li>Spring 2017 - Co-Chaired/Coordinated Dominion Enterprises Student Hackathon</li>
-        </ul>
       </main>
       <Footer />
     </div>
