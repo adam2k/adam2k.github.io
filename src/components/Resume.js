@@ -64,9 +64,8 @@ export default function Resume() {
           Zume <span>// Software Engineer</span>
         </h4>
         <p>
-          Currently working on the Site Relibility Engineering team.
-          Previously using Vue.js and
-          Node.js to build out Zume's value added services.
+          Currently working on the Site Reliability Engineering team.  Projects include: implementing HashiCorp vault, production deployments, and mTLS between our API Gateway and our clusters.
+          Previously, working with a team of five to build out Zume's value added services using Vue.js and Node.js.
         </p>
 
         <h3>2018 - 2018</h3>
