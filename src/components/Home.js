@@ -15,7 +15,7 @@ export default function Home() {
           of technologies from scheduling & orchestration tool{' '}
           <a href="https://kubernetes.io/" target="_blank">
             Kubernetes (K8s)
-          </a>
+          </a>{' '}
           to frontend frameworks{' '}
           <a href="https://vuejs.org/" target="_blank">
             React
