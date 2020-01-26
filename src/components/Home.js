@@ -12,7 +12,7 @@ export default function Home() {
       <main>
         <p>
           Hello, I am a software engineer from Virginia, living in San Francisco. I work with a wide range 
-          of technologies from scheduling & orchestration tools{' '}
+          of technologies from scheduling & orchestration tool{' '}
           <a href="https://kubernetes.io/" target="_blank">
             Kubernetes (K8s)
           </a>
