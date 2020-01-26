@@ -11,14 +11,18 @@ export default function Home() {
       <Header h1="Adam Vandover" h2="// Software Engineer" />
       <main>
         <p>
-          Hello, I am a software engineer from Virginia, living in San Francisco. I work with a wide
-          range of technologies including{' '}
+          Hello, I am a software engineer from Virginia, living in San Francisco. I work with a wide range 
+          of technologies from scheduling & orchestration tools{' '}
+          <a href="https://kubernetes.io/" target="_blank">
+            Kubernetes (K8s)
+          </a>
+          to frontend frameworks{' '}
           <a href="https://vuejs.org/" target="_blank">
-            Vue.js
+            React
           </a>{' '}
-          and{' '}
+          &{' '}
           <a href="https://nodejs.org/" target="_blank">
-            Node.js
+            Vue.js
           </a>
           .
         </p>
