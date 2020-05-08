@@ -8,7 +8,8 @@ var fs = require('fs-extra')
 var path = require('path')
 
 exports.onPostBuild = (_, __) => {
-  // Copy favicon.
+  console.log('copying additional assets...');
   fs.copySync(path.join(__dirname, '/src/assets/additional'), path.join(__dirname, '/public/static'));
-  fs.copySync(path.join(__dirname, '/src/assets/cname'), path.join(__dirname, '/'));
+  console.log('copying CNAME to root...');
+  fs.copySync(path.join(__dirname, '/src/assets/cname'), path.join(__dirname, '/public'));
 }
