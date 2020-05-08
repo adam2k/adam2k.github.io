@@ -10,4 +10,5 @@ var path = require('path')
 exports.onPostBuild = (_, __) => {
   // Copy favicon.
   fs.copySync(path.join(__dirname, '/src/assets/additional'), path.join(__dirname, '/public/static'));
+  fs.copySync(path.join(__dirname, '/src/assets/cname'), path.join(__dirname, '/'));
 }
