@@ -11,5 +11,5 @@ exports.onPostBuild = (_, __) => {
   console.log('copying additional assets...');
   fs.copySync(path.join(__dirname, '/src/assets/additional'), path.join(__dirname, '/public/static'));
   console.log('copying CNAME to root...');
-  fs.copySync(path.join(__dirname, '/src/assets/cname'), path.join(__dirname, '/public'));
+  fs.copySync(path.join(__dirname, '/src/assets/root'), path.join(__dirname, '/public'));
 }

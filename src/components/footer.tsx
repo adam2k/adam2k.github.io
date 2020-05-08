@@ -41,9 +41,9 @@ const Footer = () => (
             </li>
         </ul>
         <p>
-            © {new Date().getFullYear()} <a href="adam2k.com">adam2k.com</a>
+            © {new Date().getFullYear()} <a href="https://adam2k.com">adam2k.com</a>
             {` `}
-            Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+            built with <a href="https://www.gatsbyjs.org">Gatsby</a>
         </p>
     </div>
   </footer>
