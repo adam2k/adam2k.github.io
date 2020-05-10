@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-import Header from "./header"
-import "./layout.css"
-import Footer from "./footer"
+import Header from "./header";
+import "./styles/styles.css";
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,8 +29,14 @@ const Layout = ({ children }) => {
     subTitle,
   } = data.site.siteMetadata;
 
+  const [isCrazy, setIsCrazy] = useState(false);
+
+  function handleCrazy() {
+    setIsCrazy(isCrazy ? false : true);
+  }
+
   return (
-    <>
+    <div className={isCrazy ? "layout get-crazy" : "layout"}>
       <Header title={title} subTitle={subTitle} />
       <div
         style={{
@@ -40,9 +46,9 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <Footer />
+        <Footer isCrazy={isCrazy} onClick={handleCrazy} />
       </div>
-    </>
+    </div>
   )
 }
 

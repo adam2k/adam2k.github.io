@@ -1,52 +1,80 @@
-import React from "react"
-import EmailIcon from '@material-ui/icons/Email';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import BookIcon from '@material-ui/icons/Book';
-import ForumIcon from '@material-ui/icons/Forum';
+import React, { useState } from "react"
+import EmailIcon from "@material-ui/icons/Email"
+import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import GitHubIcon from "@material-ui/icons/GitHub"
+import BookIcon from "@material-ui/icons/Book"
+import ForumIcon from "@material-ui/icons/Forum"
 
-const Footer = () => (
-  <footer>
-   <div className="inner-footer">
-        <ul>
+
+function Footer(props) {
+  const partyTime = "Party Time!";
+  const relax = "Whoa! Relax";
+  const [partyDialogue, setPartyDialogue] = useState(partyTime)
+
+  function handleClick(e) {
+    e.preventDefault();
+    setPartyDialogue(props.isCrazy ? partyTime : relax);
+    props.onClick(e.target.value);
+  }
+
+  return (
+      <footer>
+        <div className="inner-footer">
+          <ul>
             <li>
                 <a href="mailto:avandover@gmail.com">
-                <EmailIcon />
-                <span>email</span>
+                  <div>
+                    <EmailIcon />
+                    <span>email</span>
+                  </div>
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/avandover" target="_blank">
-                <LinkedInIcon />
-                <span>linkedin</span>
-                </a>
+              <a href="https://www.linkedin.com/in/avandover" target="_blank">
+                <div>
+                  <LinkedInIcon />
+                  <span>linkedin</span>
+                </div>
+              </a>
             </li>
             <li>
-                <a href="https://www.github.com/adam2k" target="_blank">
-                <GitHubIcon />
-                <span>github</span>
-                </a>
+              <a href="https://www.github.com/adam2k" target="_blank">
+                <div>
+                  <GitHubIcon />
+                  <span>github</span>
+                </div>
+              </a>
             </li>
             <li>
                 <a href="https://teamtreehouse.com/adam2k" target="_blank">
-                <BookIcon />
-                <span>Team Treehouse</span>
+                  <div>
+                    <BookIcon />
+                    <span>Team Treehouse</span>
+                  </div>
                 </a>
             </li>
             <li>
-                <a href="https://stackoverflow.com/users/1008875/adam2k" target="_blank">
-                <ForumIcon />
-                <span>stackoverflow</span>
-                </a>
+              <a
+                href="https://stackoverflow.com/users/1008875/adam2k"
+                target="_blank"
+              >
+                <div>
+                  <ForumIcon />
+                  <span>stackoverflow</span>
+                </div>
+              </a>
             </li>
-        </ul>
+          </ul>
+        </div>
         <p>
-            © {new Date().getFullYear()} <a href="https://adam2k.com">adam2k.com</a>
-            {` `}
-            built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()}{" "}
+          <a href="https://adam2k.com">adam2k.com</a>.
+          Ready to get Crazy? <a href="#" onClick={handleClick}>{partyDialogue}</a>
         </p>
-    </div>
-  </footer>
-)
+      </footer>
+    // )
+  // };
+  );
+}
 
 export default Footer

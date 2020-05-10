@@ -1,0 +1,49 @@
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+.layout.get-crazy .header-img {
+  opacity: 1;
+	-webkit-animation: rotate-scale-up 0.65s linear infinite both;
+	        animation: rotate-scale-up 0.65s linear infinite both;
+}
+.layout.get-crazy .header-titles h1 {
+  animation: shakeY 0.75s linear infinite both;
+  transform-origin: center;
+}
+.layout.get-crazy .header-titles h2 {
+  animation: backOutRight 0.75s linear 1 forwards;
+  transform-origin: center;
+}
+.layout.get-crazy .description {
+  animation: hinge calc(var(--animate-duration) * 2) forwards;
+  transform-origin: top left;
+}
+.get-crazy footer ul li div {
+  display: block;
+  position: relative;
+}
+.get-crazy footer ul li a {
+  display: block;
+  position: absolute;
+}
+.get-crazy footer ul li:first-child a {
+	-webkit-animation: rotate-scale-up-hor 0.65s linear infinite both;
+	        animation: rotate-scale-up-hor 0.65s linear infinite both;
+}
+.get-crazy footer ul li:nth-child(2) a {
+	-webkit-animation: rotate-scale-down-diag-1 0.7s linear infinite both;
+	        animation: rotate-scale-down-diag-1 0.7s linear infinite both;
+}
+.get-crazy footer ul li:nth-child(3) a {
+	-webkit-animation: flip-scale-up-diag-1 0.65s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+          animation: flip-scale-up-diag-1 0.65s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+}
+.get-crazy footer ul li:nth-child(4) a {
+  transform-origin: top center;
+  animation: swing 1s linear infinite both;
+}
+.get-crazy footer ul li:nth-child(5) a {
+  animation: heartBeat calc(var(--animate-duration) * 1.3) ease-in-out infinite both;
+}
