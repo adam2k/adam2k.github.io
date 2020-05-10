@@ -26,7 +26,7 @@ const IndexPage = () => (
         innovative, inclusive software solutions that help improve lives.
       </p>
       <p>Interested in talking? Send me a message and we can chat.</p>
-      <p>You can find me all around the Interwebs or biking and running around Nofolk.</p>
+      <p>You can find me all around the Interwebs or biking and running around Norfolk.</p>
       <p>
         <a href="/static/Adam Vandover Resume.pdf">
         Check out my Resume

@@ -8,7 +8,7 @@
 }
 .inner-footer ul {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr;
   grid-template-rows: 2.7875rem 2.7875rem;
   grid-column-gap: 1.5rem;
   list-style: none;
@@ -24,3 +24,8 @@
 .inner-footer ul li a svg, .inner-footer ul li a span {
   align-self: center;
 } 
+@media only screen and (min-width: 480px) {
+  .inner-footer ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

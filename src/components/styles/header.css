@@ -1,6 +1,6 @@
 .header-grid {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 1fr;
   grid-column-gap: 3rem;
   width: 100%;
   max-width: 660px;
@@ -23,4 +23,9 @@
 .header-titles h1, .header-titles h2 {
   margin: 0;
   color: var(--secondary-color);
+}
+@media only screen and (min-width: 480px) {
+  .header-grid {
+    grid-template-columns: 1fr 4fr;
+  }
 }
