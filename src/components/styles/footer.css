@@ -1,5 +1,7 @@
 
 .inner-footer {
+  display: block;
+  position: relative;
   opacity: 0;
   border-top: 1px solid var(--primary-color);
   padding: 2rem 0;

@@ -38,13 +38,7 @@ const Layout = ({ children }) => {
   return (
     <div className={isCrazy ? "layout get-crazy" : "layout"}>
       <Header title={title} subTitle={subTitle} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 660,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="content-area">
         <main>{children}</main>
         <Footer isCrazy={isCrazy} onClick={handleCrazy} />
       </div>

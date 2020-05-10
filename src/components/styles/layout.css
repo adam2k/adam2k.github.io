@@ -1,11 +1,12 @@
-.layout {
-  height: 100vh;
+.content-area {
+  margin: 0 auto;
+  max-width: 660px;
+  padding: 0 1.0875rem 1.45rem;
 }
 .layout .description {
-  /* opacity: 0;
+  opacity: 0;
   -webkit-animation: fade-in 0.3s ease-in 0.4s 1 forwards;
-  animation: fade-in 0.3s ease-in 0.4s 1 forwards; */
-  animation: animate__fadeInRight;
+  animation: fade-in 0.3s ease-in 0.4s 1 forwards;
 }
 @media only screen and (max-width: 480px) {
   html {

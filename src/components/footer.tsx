@@ -69,7 +69,8 @@ function Footer(props) {
         <p>
           © {new Date().getFullYear()}{" "}
           <a href="https://adam2k.com">adam2k.com</a>.
-          Ready to get Crazy? <a href="#" onClick={handleClick}>{partyDialogue}</a>
+          {" "}
+          <span className="hide-on-mobile">Ready to get Crazy? <a href="#" onClick={handleClick}>{partyDialogue}</a></span>
         </p>
       </footer>
     // )

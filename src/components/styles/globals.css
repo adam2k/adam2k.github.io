@@ -2,14 +2,13 @@ html {
   font-family: "Quicksand", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", "sans-serif";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-size: 16px;
+  font-size: 100%;
 }
 body {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 400;
   overflow: hidden;
-  overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --primary-color: #febc20;
@@ -622,4 +621,15 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+.hide-on-mobile {
+  display: none;
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+  .hide-on-mobile {
+    display: initial;
+  }
 }
