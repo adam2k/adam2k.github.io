@@ -3,6 +3,24 @@
   --animate-delay: 1s;
   --animate-repeat: 1;
 }
+.layout.get-crazy header {
+  background: linear-gradient(
+    270deg,
+    var(--primary-color),
+    var(--crazy-color-1),
+    var(--crazy-color-2),
+    var(--crazy-color-3),
+    var(--crazy-color-4),
+    var(--primary-color),
+    var(--crazy-color-1),
+    var(--crazy-color-2),
+    var(--crazy-color-3),
+    var(--crazy-color-4)
+  );
+  background-size: 1000% 1000%;
+  -webkit-animation: header-animation 3.5s linear infinite reverse both;
+          animation: header-animation 3.5s linear infinite reverse both;
+}
 .layout.get-crazy .header-img {
   opacity: 1;
 	-webkit-animation: rotate-scale-up 0.65s linear infinite both;
