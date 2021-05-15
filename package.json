@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "adam2k",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A site about Adam Vandover",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Adam Vandover <avandover@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
@@ -25,9 +25,11 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "adam2k",
+    "Adam Vandover"
   ],
-  "license": "MIT",
+  "license": "NO LICENSE",
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -b master",
