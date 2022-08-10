@@ -12,7 +12,7 @@
 
 1.  **Build Using Gatsby.**
 
-  Do not push directly to master instead, work off the development branch and use the command:
+  Do not push directly to main instead, work off the development branch and use the command:
 
   `yarn deploy`
 
