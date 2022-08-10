@@ -8,7 +8,7 @@ const Header = ({ title, subTitle }) => (
   <header>
     <div className="header-grid">
       <div className="header-img">
-        <Image />
+        <Image/>
       </div>
       <div className="header-titles">
         <h1>

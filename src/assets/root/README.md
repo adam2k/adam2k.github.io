@@ -12,11 +12,10 @@
 
 1.  **Build Using Gatsby.**
 
-  Do not push directly to main instead, work off the development branch and use the command:
+Do not push directly to main instead, work off the development branch and use the command:
 
-  `yarn deploy`
+`yarn deploy`
 
-  to push new changes to the website.
+to push new changes to the website.
 
-  
 <!-- AUTO-GENERATED-CONTENT:END -->
