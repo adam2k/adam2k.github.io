@@ -22,36 +22,12 @@ function Footer(props) {
         <div className="inner-footer">
           <ul>
             <li>
-                <a href="mailto:avandover@gmail.com">
-                  <div>
-                    <EmailIcon />
-                    <span>email</span>
-                  </div>
-                </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/avandover" target="_blank">
-                <div>
-                  <LinkedInIcon />
-                  <span>linkedin</span>
-                </div>
-              </a>
-            </li>
-            <li>
               <a href="https://www.github.com/adam2k" target="_blank">
                 <div>
                   <GitHubIcon />
                   <span>github</span>
                 </div>
               </a>
-            </li>
-            <li>
-                <a href="https://teamtreehouse.com/adam2k" target="_blank">
-                  <div>
-                    <BookIcon />
-                    <span>Team Treehouse</span>
-                  </div>
-                </a>
             </li>
             <li>
               <a
@@ -63,6 +39,22 @@ function Footer(props) {
                   <span>stackoverflow</span>
                 </div>
               </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/avandover" target="_blank">
+                <div>
+                  <LinkedInIcon />
+                  <span>linkedin</span>
+                </div>
+              </a>
+            </li>
+            <li>
+                <a href="mailto:avandover@gmail.com">
+                  <div>
+                    <EmailIcon />
+                    <span>email</span>
+                  </div>
+                </a>
             </li>
           </ul>
         </div>
