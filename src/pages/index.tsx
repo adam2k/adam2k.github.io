@@ -17,11 +17,11 @@ const IndexPage = () => (
         <a href="https://golang.org" target="_blank">
           go lang
         </a>
-        , &nbsp;&amp;&nbsp;
+        , &nbsp;
         <a href="https://www.cplusplus.com/" target="_blank">
           C++
         </a>
-        ,
+        , &nbsp;
         <a href="https://www.typescriptlang.org" target="_blank">
           typescript
         </a>
