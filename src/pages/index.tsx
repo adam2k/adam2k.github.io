@@ -8,22 +8,10 @@ const IndexPage = () => (
     <SEO title="adam2k.com" description="My personal website" />
     <div className="description">
       <p>
-        Hello, I am a software engineer from Virginia. I work with a wide range
-        of technologies from&nbsp;
-        <a href="https://www.typescriptlang.org" target="_blank">
-          typescript
-        </a>
-        &nbsp;&amp;&nbsp;
-        <a href="https://nodejs.org/" target="_blank">
-          node.js
-        </a>
-        &nbsp;to&nbsp;
-        <a href="http://apollographql.com/" target="_blank">
-          Apollo Server
-        </a>
-        ,&nbsp;
-        <a href="https://www.prisma.io" target="_blank">
-          Prisma
+        Hello, I am a software engineering manager from Virginia. I work with a
+        wide range of technologies from&nbsp;
+        <a href="https://www.java.com" target="_blank">
+          java
         </a>
         ,&nbsp;
         <a href="https://golang.org" target="_blank">
@@ -32,6 +20,14 @@ const IndexPage = () => (
         , &nbsp;&amp;&nbsp;
         <a href="https://www.cplusplus.com/" target="_blank">
           C++
+        </a>
+        ,
+        <a href="https://www.typescriptlang.org" target="_blank">
+          typescript
+        </a>
+        &nbsp;&amp;&nbsp;
+        <a href="https://nodejs.org/" target="_blank">
+          node.js
         </a>
         .
       </p>
@@ -45,15 +41,6 @@ const IndexPage = () => (
         You can find me all around the Interwebs or biking and running around
         Norfolk.
       </p>
-
-      <p>If you are so inclined, I'm accepting sponsorship on Github. 🙏</p>
-      <iframe
-        src="https://github.com/sponsors/adam2k/button"
-        title="Sponsor adam2k"
-        height="35"
-        width="116"
-        style={{ border: "0" }}
-      ></iframe>
     </div>
   </Layout>
 )
