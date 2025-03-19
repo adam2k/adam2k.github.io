@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     description: "adam2k website",
     author: "adam2k",
     title: `adam2k`,
-    subTitle: "// Lead Software Engineer",
+    subTitle: "// Software Engineering Manager",
     siteUrl: `https://www.adam2k.com`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
